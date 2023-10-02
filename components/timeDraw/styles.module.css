@@ -1,0 +1,40 @@
+.carruselContainer{
+    max-width: 53rem;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.circle{
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background-color: #1A1A1A;
+}
+
+.line{
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #1A1A1A;
+}
+.progress{
+    position: absolute;
+    height: 5px;
+    background-color: #1A1A1A;
+    transition: width 0.3s ease;
+}
+
+.circleMove{
+    left: 5%;
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background-color: #1A1A1A;
+    transition: transform 0.6s cubic-bezier(0.76, 0, 0.24, 1);
+}
